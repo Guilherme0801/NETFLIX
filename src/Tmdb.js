@@ -2,7 +2,7 @@
 /* eslint-disable no-labels */
 /* eslint-disable default-case */
 /* eslint-disable no-unused-labels */
-/* eslint-disable import/no-anonymous-default-export */
+ 
 const API_KEY = '3d4e6551ec7a65e23da2874f82d24144';
 const API_BASE = 'https://api.themoviedb.org/3';
 

@@ -1,8 +1,9 @@
-/* eslint-disable import/no-anonymous-default-export */
+ 
 import React, {useState} from 'react'
 import './MovieRow.css'
-import NavigateBeforeIcon from '@material-ui/icons/NavigateBefore';
-import NavigateNextIcon from '@material-ui/icons/NavigateNext';
+
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 export default ({title, items}) => {
     const [scrollX,setScrollX] = useState(0)
